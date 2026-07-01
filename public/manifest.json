@@ -1,0 +1,15 @@
+{
+  "short_name": "MEDREMIND AI",
+  "name": "MEDREMIND AI | AI Powered Healthcare Companion",
+  "icons": [
+    {
+      "src": "/favicon.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "/",
+  "background_color": "#000000",
+  "theme_color": "#0EA5E9",
+  "display": "standalone"
+}

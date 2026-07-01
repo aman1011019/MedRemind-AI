@@ -1,0 +1,24 @@
+# Medremind AI - Voice & PDF Functionality Todo List
+
+- [x] Integrate Toast Notification System
+  - [x] Add `Toaster` from `sonner` in `src/routes/__root.tsx`
+- [x] Implement Report Files Infrastructure
+  - [x] Create `/public/reports/` directory
+  - [x] Create placeholder `daily_report.pdf`, `weekly_report.pdf`, `health_summary.pdf`, `daily_report.xlsx`, `daily_report.csv` files
+- [x] Fix PDF Report & Export Section in `src/routes/index.tsx`
+  - [x] Implement file existence check & download helpers (using `fetch` and direct anchor download)
+  - [x] Add state for Preview PDF Modal and Export Options Modal
+  - [x] Update left card badges to trigger direct file downloads
+  - [x] Update right "Preview PDF" and "Export Options" buttons to open their respective modals
+  - [x] Create the premium `PdfPreviewModal` component with embedded iframe, zoom scale controls, page counter, and download
+  - [x] Create the `ExportOptionsModal` component with download buttons
+- [x] Fix Voice Mode Section in `src/routes/index.tsx`
+  - [x] Add state for opening Voice Modal
+  - [x] Create `VoiceModal` component:
+    - [x] Request microphone permission
+    - [x] Set up Web Speech `SpeechRecognition` to capture live user speech
+    - [x] Render a live reacting waveform animation (using CSS / React states)
+    - [x] Simulate therapist response with a "thinking..." delay
+    - [x] Set up SpeechSynthesis voice output with Pause, Resume, Stop controls
+    - [x] Ensure all audio, recognition, and syntheses terminate cleanly on close
+- [x] Verify everything compiles and builds cleanly
