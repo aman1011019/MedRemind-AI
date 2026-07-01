@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://medremind.ai/</loc><changefreq>weekly</changefreq><priority>1.0</priority></url>
-  <url><loc>https://medremind.ai/privacy-policy</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://medremind.ai/terms-and-conditions</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://medremind.ai/medical-disclaimer</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://medremind.ai/faq</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://medremind.ai/contact</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
-</urlset>
