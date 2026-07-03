@@ -104,7 +104,7 @@ function Hero() {
             initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.7, delay: 0.5 }}
             className="mt-8 flex flex-wrap gap-3"
           >
-            <a href="https://github.com/aman1011019/MedRemind-AI/raw/refs/heads/apk/MEDREMIND-AI.apk" download="MEDREMIND-AI.apk" className="btn-liquid flex items-center justify-center gap-2">
+            <a href="https://github.com/aman1011019/MedRemind-AI/raw/refs/heads/apk/MEDREMIND-AI-1.0.1.apk" download="MEDREMIND-AI-1.0.1.apk" className="btn-liquid flex items-center justify-center gap-2">
               <Download className="h-4 w-4" /> Download Android APK
             </a>
             <button onClick={() => openDownload("ios")} className="btn-ghost-glass">
@@ -828,9 +828,9 @@ function DownloadSection() {
       <div className="mx-auto max-w-5xl px-4 text-center">
         <SectionLabel>Get the app</SectionLabel>
         <Heading className="max-w-3xl mx-auto">Download <span className="text-gradient">MEDREMIND AI.</span></Heading>
-        <p className="mt-6 text-muted-foreground text-lg">Version 1.0.0 · 58 MB · Android 10+ supported</p>
+        <p className="mt-6 text-muted-foreground text-lg">Version 1.0.1 · 59 MB · Android 10+ supported</p>
         <div className="mt-10 flex flex-wrap justify-center gap-3">
-          <a href="https://github.com/aman1011019/MedRemind-AI/raw/refs/heads/apk/MEDREMIND-AI.apk" download="MEDREMIND-AI.apk" className="btn-liquid flex items-center justify-center gap-2"><Download className="h-4 w-4" /> Download Android APK</a>
+          <a href="https://github.com/aman1011019/MedRemind-AI/raw/refs/heads/apk/MEDREMIND-AI-1.0.1.apk" download="MEDREMIND-AI-1.0.1.apk" className="btn-liquid flex items-center justify-center gap-2"><Download className="h-4 w-4" /> Download Android APK</a>
           <button onClick={() => openDownload("ios")} className="btn-ghost-glass"><Apple className="h-4 w-4" /> Download on App Store</button>
           <button onClick={() => openDownload("beta")} className="btn-ghost-glass"><Sparkles className="h-4 w-4" /> Join Beta Testing</button>
         </div>

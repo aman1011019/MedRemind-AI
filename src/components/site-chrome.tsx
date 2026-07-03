@@ -36,7 +36,7 @@ export function SiteNav() {
             ))}
           </nav>
           <div className="hidden md:flex items-center gap-2">
-            <a href="https://github.com/aman1011019/MedRemind-AI/raw/refs/heads/apk/MEDREMIND-AI.apk" download="MEDREMIND-AI.apk" className="btn-liquid !py-2 !px-4 !text-sm flex items-center justify-center">Download APK</a>
+            <a href="https://github.com/aman1011019/MedRemind-AI/raw/refs/heads/apk/MEDREMIND-AI-1.0.1.apk" download="MEDREMIND-AI-1.0.1.apk" className="btn-liquid !py-2 !px-4 !text-sm flex items-center justify-center">Download APK</a>
           </div>
           <button className="md:hidden text-foreground" onClick={() => setOpen(!open)} aria-label="Menu">
             {open ? <X /> : <Menu />}
@@ -48,7 +48,7 @@ export function SiteNav() {
               {NAV.map((n) => (
                 <a key={n.to} href={n.to} onClick={() => setOpen(false)} className="px-3 py-2 rounded-xl hover:bg-white/5">{n.label}</a>
               ))}
-              <a href="https://github.com/aman1011019/MedRemind-AI/raw/refs/heads/apk/MEDREMIND-AI.apk" download="MEDREMIND-AI.apk" onClick={() => setOpen(false)} className="btn-liquid mt-2 flex items-center justify-center">Download APK</a>
+              <a href="https://github.com/aman1011019/MedRemind-AI/raw/refs/heads/apk/MEDREMIND-AI-1.0.1.apk" download="MEDREMIND-AI-1.0.1.apk" onClick={() => setOpen(false)} className="btn-liquid mt-2 flex items-center justify-center">Download APK</a>
             </div>
           </div>
         )}
@@ -80,8 +80,8 @@ export function SiteFooter() {
             </div>
             <div className="mt-6">
               <a
-                href="https://github.com/aman1011019/MedRemind-AI/raw/refs/heads/apk/MEDREMIND-AI.apk"
-                download="MEDREMIND-AI.apk"
+                href="https://github.com/aman1011019/MedRemind-AI/raw/refs/heads/apk/MEDREMIND-AI-1.0.1.apk"
+                download="MEDREMIND-AI-1.0.1.apk"
                 className="btn-liquid !py-2.5 !px-5 !text-sm inline-flex items-center gap-2"
               >
                 Download APK
